@@ -1,3 +1,1 @@
-Unstaged changes after reset:
-M	Procfile
-D	myapp/Procfile
+web: gunicorn mysite.wsgi
